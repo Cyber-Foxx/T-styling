@@ -258,7 +258,7 @@ updatedw() {
 		bash
 		bash setup.sh
 		wait
-		echo \"Update Success\" && echo -------------- && figlet Success && figlet \$(sed '1q;d' '/data/data/com.termux/files/home/termuxstyling/ver.cfg') && figlet FemurTech && echo Restart to apply changes
+		echo \"Update Success\" && echo -------------- && figlet Success && figlet \$(sed '1q;d' '/data/data/com.termux/files/home/T-styling/ver.cfg') && figlet FemurTech && echo Restart to apply changes
 	fi
 	cd \$ppath
 }
@@ -318,7 +318,7 @@ cd /$HOME
 cd T-styling
 echo Script made by
 toilet C-Foxx
-toilet (MRN)
+toilet MRN
 sleep 2
 mdv README.md
 cd $pdir
