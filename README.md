@@ -1,17 +1,24 @@
 Made By C-Foxx
 This script will make your termux look better. Enjoy! !
 
+
+
 Installing:
 
 chmod +x *.*
 
 ./setup.sh or sh setup.sh to install styling.
 
+
+
 Updating:
 
 use command updatedw to update the script.
 
+
+
 Features:
+
 
 Custom Commands:
 
@@ -36,6 +43,8 @@ md [ usage md foldername = mkdir foldername]
 msf [ usage msf = msfconsole] to launch metasploit
 
 msfdb [ usage msfdb = initdb $PREFIX/var/lib/postgresql && pg_ctl -D $PREFIX/var/lib/postgresql start] to connect to metasploit database if it isn't connected automatically which is often.
+
+
 
 
 Uninstalling:
