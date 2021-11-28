@@ -236,9 +236,9 @@ cdp() {
 updatedw() {
 	ppath=\${pwd};
 	cd \$HOME
-	if [ -d \"\$HOME/termuxstyling\" ]
+	if [ -d \"\$HOME/T-styling\" ]
 	then
-		cd termuxstyling
+		cd T-styling
 		git fetch >/dev/null
 		var=\$(git status | grep 'Your branch')
 		# echo \$var
@@ -267,7 +267,7 @@ txt() { cat \$1.*; }
 figlet $uname
 PS1='\033[1;91Cyber-Foxx[\033[1;93m\W\033[1;91m]:
 # \033[1;92m'
-if [ -d \"\$HOME/termuxstyling\" ]
+if [ -d \"\$HOME/T-styling\" ]
 then
 	if grep -q '# 011' \"/data/data/com.termux/files/home/T-styling/.user.cfg\"
 	then
@@ -283,7 +283,7 @@ then
 				lnum=1
 				sed -i \"/.*# 011.*/ c\\ \$lnum # 011\" \"/data/data/com.termux/files/home/T-styling/.user.cfg\"
 				cd \$HOME
-				cd termuxstyling
+				cd T-styling
 				git fetch >/dev/null
 				test=\$(git status | grep 'Your branch')
 				echo \$test
@@ -318,7 +318,7 @@ cd /$HOME
 cd T-styling
 echo Script made by
 toilet C-Foxx
-toilet MRN
+toilet (MRN)
 sleep 2
 mdv README.md
 cd $pdir
