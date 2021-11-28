@@ -1,5 +1,6 @@
 Made By C-Foxx
-This script will make your termux look better. Enjoy! !
+This script will make your termux look better.
+ Enjoy! !
 
 
 
