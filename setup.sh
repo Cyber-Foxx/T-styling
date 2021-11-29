@@ -98,7 +98,7 @@ apt-get install git -y > /dev/null 2>&1 & spinner -p && spinner -t
 clear
 #Script starts
 #cd $HOME
-#cd termuxstyling
+#cd T-styling
 echo Script made by:- C-Foxx (MRN)
 #Uninstall
 if [ -e ".user.cfg" ]
