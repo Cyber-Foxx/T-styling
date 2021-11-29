@@ -323,4 +323,5 @@ sleep 2
 mdv README.md
 cd $pdir
 echo My Telegram account:- https://t.me/Unknown_Helper_O02
+echo !
 echo Restart to apply changes
